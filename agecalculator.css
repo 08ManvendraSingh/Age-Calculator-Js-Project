@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #927daed4;
+	color: #fff;
+}
+.inputBx{
+	width: 30%;
+	padding: 1.2rem 1.2rem;
+	background-color: #020208f2;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#born{
+	font-size: 1.1rem;
+	padding: .3rem .3rem;
+	border-radius: 5px;
+}
+.inputBx button{
+	padding: .3rem .9rem;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.outputBx{
+	width: 30%;
+	background-color: #020208f2;
+}
